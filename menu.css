@@ -11,11 +11,19 @@ header{
     align-items: center;
     background-color: rgb(255, 229, 159);
     position: fixed;
-    
+    z-index: 1000;
 }
 
 main{
     padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img{
+    width: 100%;
+}
+.img img{
+    width: 70%;
 }
 .logo{
     margin-left: 50px;
@@ -27,6 +35,7 @@ main{
     justify-content: flex-end;
     gap: 50px;
     margin-right: 100px;
+
 }
 .button{
     color: black;
@@ -79,7 +88,7 @@ footer{
 }
 .main_footer{
     display: flex;
-    justify-content: center; /* Вирівнювання по горизонталі */
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }

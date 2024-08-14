@@ -11,6 +11,8 @@ header{
     align-items: center;
     background-color: rgb(255, 229, 159);
     position: fixed;
+    overflow: hidden;
+    z-index: 1000;
 }
 
 
@@ -37,7 +39,7 @@ header{
     box-shadow:  0 0 5px 1px rgb(56, 56, 56);
 }
 main{
-    height: 400vh;
+    height: auto;
     width: 100%;
 }
 .big_logo{
@@ -82,7 +84,9 @@ main{
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
-    height: 100vh;
+    
+    
+    overflow: hidden;
 }
 
 

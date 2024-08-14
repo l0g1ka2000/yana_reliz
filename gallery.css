@@ -13,7 +13,7 @@ header{
     align-items: center;
     background-color: rgb(255, 229, 159);
     position: fixed;
-    
+    z-index: 1000;
 }
 
 main{
@@ -29,6 +29,7 @@ main{
     justify-content: flex-end;
     gap: 50px;
     margin-right: 100px;
+    
 }
 .button{
     color: black;
@@ -71,9 +72,15 @@ footer{
     height: 200px;
     background-color:rgb(255, 229, 159);
 }
+.post-img{
+    transition: 0.3s linear;
+}
+.post-img:hover{
+    transform: scale(1.1);
+}
 .main_footer{
     display: flex;
-    justify-content: center; /* Вирівнювання по горизонталі */
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
